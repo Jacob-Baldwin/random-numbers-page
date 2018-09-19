@@ -9,6 +9,7 @@
     <script src="randomrange.js"></script>
     <script src="randomprime.js"></script>
     <script src="randomcard.js"></script>
+    <script src="randomstring.js"></script>
 
     <title>Random Number Generators</title>
   </head>
@@ -27,6 +28,13 @@
     <div>
       <p id="CoinFlipOutput">0</p>
       <button onclick="handleCoinFlipButton()">Coin Flip</button>
+    </div>
+
+    <div>
+      <p id="RandomStringOutput">0</p>
+      <button onclick="handleRandomStringButton()">RandomString</button>
+      <br>
+      Length:<input type="number" id="RandomStringLength" value="5">
     </div>
 
     <a href="https://en.wikipedia.org/wiki/Special:Random">Random Wikipedia Article</a>
