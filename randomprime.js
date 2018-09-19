@@ -1,8 +1,8 @@
 // computes a random prime number between 0 and 1000000
-function getRandomPrime() {
+function getRandomPrime(max) {
   var i;
   while (true) {
-    i = getRandomInt(0, 1000000);
+    i = getRandomInt(0, max);
     if (math.isPrime(i)) {
       return i;
     }
@@ -10,5 +10,6 @@ function getRandomPrime() {
 }
 
 function handleRandomPrimeButton() {
-  document.getElementById('RandomPrimeOutput').innerHTML = getRandomPrime();
+  let input_max = +document.getElementById("RandomPrimeMax").value;
+  document.getElementById('RandomPrimeOutput').innerHTML = getRandomPrime(input_max);
 }
