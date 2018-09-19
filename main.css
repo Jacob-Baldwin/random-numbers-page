@@ -1,0 +1,20 @@
+
+.Container {
+  width: 30vw;
+  box-shadow: 5px 5px 5px gray;
+  border: 3px #F8F8F8;
+  border-style: groove;
+  background-color: #99a9c4;
+
+}
+
+.Column1 {
+  position: absolute;
+  left: 10%;
+}
+
+
+.Column2 {
+  position: absolute;
+  right: 10%;
+}

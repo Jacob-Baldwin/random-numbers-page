@@ -14,30 +14,43 @@
     <title>Random Number Generators</title>
   </head>
 
-  <body>
-    <div>
-      <p id="RandomPrimeOutput">0</p>
-      <button onclick="handleRandomPrimeButton()">Random Prime</button>
+  <body class="Content">
+    <h1>Random Number Demos</h1>
+
+    <div class="Column1">
+
+      <div class="Container">
+        <p id="RandomPrimeOutput">0</p>
+        <button onclick="handleRandomPrimeButton()">Random Prime</button>
+      </div>
+
+      <div class="Container">
+        <p id="RandomFloatOutput">0</p>
+        <button onclick="handleRandomFloatButton()">Random Float</button>
+      </div>
+
     </div>
 
-    <div>
-      <p id="RandomFloatOutput">0</p>
-      <button onclick="handleRandomFloatButton()">Random Float</button>
+    <div class="Column2">
+
+      <div class="Container">
+        <p id="CoinFlipOutput">0</p>
+        <button onclick="handleCoinFlipButton()">Coin Flip</button>
+      </div>
+
+      <div class="Container">
+        <p id="RandomStringOutput">0</p>
+        <button onclick="handleRandomStringButton()">RandomString</button>
+        <br>
+        Length:<input type="number" id="RandomStringLength" value="5">
+      </div>
+
+      <div class="Container">
+        <a href="https://en.wikipedia.org/wiki/Special:Random">Random Wikipedia Article</a>
+      </div>
+
     </div>
 
-    <div>
-      <p id="CoinFlipOutput">0</p>
-      <button onclick="handleCoinFlipButton()">Coin Flip</button>
-    </div>
-
-    <div>
-      <p id="RandomStringOutput">0</p>
-      <button onclick="handleRandomStringButton()">RandomString</button>
-      <br>
-      Length:<input type="number" id="RandomStringLength" value="5">
-    </div>
-
-    <a href="https://en.wikipedia.org/wiki/Special:Random">Random Wikipedia Article</a>
   </body>
 
 </html>
