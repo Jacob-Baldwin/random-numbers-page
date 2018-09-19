@@ -1,1 +1,4 @@
-// Here we can define the functions to compute a random coin flip style number
+//returns randomly true or false
+function getRandomBool() {
+  return !!Math.floor(Math.random() + 0.5);
+}
