@@ -1,3 +1,6 @@
+.Content {
+  text-align: center;
+}
 
 .Container {
   width: 30vw;
@@ -6,7 +9,23 @@
   border-style: groove;
   background-color: #99a9c4;
   margin: 10px;
+  text-align: left;
+}
 
+.ContainerInner {
+  margin: 8px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+input {
+  margin: 2px;
 }
 
 .Column1 {
