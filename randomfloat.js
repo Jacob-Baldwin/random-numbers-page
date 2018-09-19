@@ -1,1 +1,7 @@
-// This file can be for computing a random floating point number between zero and one
+//Returns a random float
+
+function randomFloat() {
+  return Math.random();
+}
+
+console.log(randomFloat());
