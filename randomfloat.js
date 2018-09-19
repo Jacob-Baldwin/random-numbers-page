@@ -4,5 +4,5 @@ function getRandomFloat() {
 }
 
 function handleRandomFloatButton() {
-  document.getElementById('OutputDisplay').innerHTML = getRandomFloat();
+  document.getElementById('RandomFloatOutput').innerHTML = getRandomFloat();
 }

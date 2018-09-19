@@ -5,9 +5,9 @@ function getRandomBool() {
 
 function handleCoinFlipButton() {
   if (getRandomBool()) {
-    document.getElementById('OutputDisplay').innerHTML = "Heads";
+    document.getElementById('CoinFlipOutput').innerHTML = "Heads";
   }
   else {
-    document.getElementById('OutputDisplay').innerHTML = "Tails";
+    document.getElementById('CoinFlipOutput').innerHTML = "Tails";
   }
 }

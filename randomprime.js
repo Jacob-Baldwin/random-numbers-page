@@ -10,5 +10,5 @@ function getRandomPrime() {
 }
 
 function handleRandomPrimeButton() {
-  document.getElementById('OutputDisplay').innerHTML = getRandomPrime();
+  document.getElementById('RandomPrimeOutput').innerHTML = getRandomPrime();
 }
