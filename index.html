@@ -6,7 +6,7 @@
     <script src="math.js"></script>
     <script src="randomcoinflip.js"></script>
     <script src="randomfloat.js"></script>
-    <script src="randomrange.js"></script>
+    <script src="randomint.js"></script>
     <script src="randomprime.js"></script>
     <script src="randomcard.js"></script>
     <script src="randomstring.js"></script>
@@ -31,7 +31,7 @@
 
       <div class="Container">
         <p id="RandomCard">0</p>
-        <button onclick="handleRandomCardButton()">RandomCard</button>
+        <button onclick="handleRandomCardButton()">Random Card</button>
       </div>
 
     </div>
@@ -45,9 +45,15 @@
 
       <div class="Container">
         <p id="RandomStringOutput">0</p>
-        <button onclick="handleRandomStringButton()">RandomString</button>
-        <br>
         Length:<input type="number" id="RandomStringLength" value="5">
+        <button onclick="handleRandomStringButton()">Random String</button>
+      </div>
+
+      <div class="Container">
+        <p id="RandomIntOutput">0</p>
+        Min:<input type="number" id="RandomIntMin" value="0">
+        Max:<input type="number" id="RandomIntMax" value="10">
+        <button onclick="handleRandomIntButton()">Random Int</button>
       </div>
 
       <div class="Container">
