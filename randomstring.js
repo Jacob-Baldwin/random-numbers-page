@@ -1,10 +1,10 @@
-const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 function getRandomString(length) {
   var i;
   var output = "";
   for (i = 0; i < length; i++) {
-    output = output + chars[getRandomInt(0, 26)];
+    output = output + CHARS[getRandomInt(0, CHARS.length)];
   }
   return output;
 }
